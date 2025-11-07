@@ -1,0 +1,75 @@
+*{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'
+    , 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    min-width: 25em;
+    height: 7em;
+    background-color:#E9F1FF
+;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*position: sticky;*/
+ /* position: fixed;*/
+ position: sticky;
+top: 0;
+
+}
+.nav{
+min-width: 25em;
+min-height: 4em;
+    background-color: rgba(255, 0, 0, 0.08) blur 15-14px;
+    display: flex;
+    padding: 0.5em 1em;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+   
+   
+}
+.logo img{
+        height: 50px;      
+    width: 50px;   
+    border-radius: 100%;
+
+}
+li{
+    list-style-type: none;
+   background-color: #F8FAFD
+;
+;
+   padding: 0.5em;
+    
+    
+
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+   background-color:#DDEAFF ; 
+   border-radius: 4px;
+
+
+}
+.whatsapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+   
+}
+.whatsapp img{
+    width: 10em;
+    height: 10em;
+}
+       
